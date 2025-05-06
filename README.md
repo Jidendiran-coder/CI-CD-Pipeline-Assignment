@@ -32,14 +32,14 @@ sudo systemctl status nginx
 ### 💻 3. Clone the Repo on Your Development EC2 Server
 
 ```bash
-git clone https://github.com/your-username/CI-CD-Pipeline-Assignment.git
+git clone https://github.com/Jidendiran-coder/CI-CD-Pipeline-Assignment.git
 cd CI-CD-Pipeline-Assignment
 ```
 
 Make sure your `index.html` is inside:
 
 ```bash
-/home/ubuntu/CI-CD-Pipeline-Assignment
+/CI-CD-Pipeline-Assignment
 ```
 
 ---
@@ -47,7 +47,7 @@ Make sure your `index.html` is inside:
 ### 🧾 4. Change Folder Ownership (Optional but Recommended)
 
 ```bash
-sudo chown -R www-data:www-data /home/ubuntu/CI-CD-Pipeline-Assignment
+sudo chown -R www-data:www-data /CI-CD-Pipeline-Assignment
 ```
 
 This gives Nginx (which runs as `www-data`) the necessary read permissions.
