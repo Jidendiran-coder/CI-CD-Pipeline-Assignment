@@ -11,8 +11,8 @@ Welcome to the **CI/CD Pipeline Assignment** project! This setup allows you to d
 1. 📦 Create a **new repository** on GitHub  
 2. 📥 Clone it to your **local working directory**:
    ```bash
-   [git clone https://github.com/your-username/CI-CD-Pipeline-Assignment.git](https://github.com/Jidendiran-coder/CI-CD-Pipeline-Assignment.git)
-    ````
+   https://github.com/Jidendiran-coder/CI-CD-Pipeline-Assignment.git
+   ````
 
 ---
 
