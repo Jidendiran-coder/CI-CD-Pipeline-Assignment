@@ -1,6 +1,25 @@
 # 🚀 CI/CD Pipeline Assignment with GitHub & Nginx
 
-Welcome to the **CI/CD Pipeline Assignment** project! This setup allows you to deploy your static website automatically using GitHub and Nginx on an EC2 instance. 🌐💻
+👋 Welcome to the CI/CD Pipeline Assignment Project!
+This project helps you automatically deploy your static website whenever you push new updates to your GitHub repository. 🚀
+
+Here's how it works:
+
+✅ Your website is stored in a GitHub repo
+
+🔁 Every 5 minutes, an EC2 server checks GitHub for new changes
+
+🧠 It uses:
+
+A Python script to detect changes (git status)
+
+A Bash script to update the website
+
+A wrapper script that runs both
+
+🌐 The website is served using Nginx
+
+⏰ All of this is run on a cron job, so the process repeats automatically every 5 minutes
 
 ---
 
