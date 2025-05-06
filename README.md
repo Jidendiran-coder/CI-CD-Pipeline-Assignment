@@ -67,7 +67,7 @@ server {
     listen 80 default_server;
     listen [::]:80 default_server;
 
-    root /home/ubuntu/CI-CD-Pipeline-Assignment;
+    root /var/www/CI-CD-Site;
     index index.html;
 
     server_name _;
