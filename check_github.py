@@ -9,7 +9,7 @@ REPO_NAME = 'CI-CD-Pipeline-Assignment'
 GITHUB_API_URL = f'https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/commits' 
 
 # File to store the last commit SHA 
-LAST_COMMIT_FILE = 'touch /var/logs/CI-CD-logs'
+LAST_COMMIT_FILE = '/var/logs/CI-CD-logs'
 
 def get_latest_commit():    
     response = requests.get(GITHUB_API_URL)    
